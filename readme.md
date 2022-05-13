@@ -15,13 +15,13 @@ Use the following command to get the conversion result of two currencies.
 java -jar currency-0.0.1-SNAPSHOT.jar cdata='{"fromCurrency":"eur","toCurrency":"gbp","fromAmount":30.222}'
 java -jar currency-0.0.1-SNAPSHOT.jar hcdata='{"fromCurrency":"eur","toCurrency":"gbp","fromAmount":30.222,"date":"2022-05-10"}'
 ```
-### JsonFile
+### JSON File
 ```
 java -jar currency-0.0.1-SNAPSHOT.jar cdata=convertCurrency.json
 java -jar currency-0.0.1-SNAPSHOT.jar hcdata=historicalConvertCurrency.json
 ```
 
-### YamlFile
+### YAML File
 ```
 java -jar currency-0.0.1-SNAPSHOT.jar cdata=convertCurrency.yml
 java -jar currency-0.0.1-SNAPSHOT.jar hcdata=historicalConvertCurrency.yml
